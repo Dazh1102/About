@@ -3,18 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>CONGDANH</title>
   </head>
   <body>
     <div class="container">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Resume</a></li>
+        <li><a href="about.html" target="_blank"> About</a></li>
+        <li class="dropdown">
+          <a href="" class="dropbtn">Tab4</a>
+          <div class="dropdown-content">
+            <a href="Design.html"target="_blank">Design</a>
+            <a href="Implement.html" target="_blank">Implement</a>
+            <a href="Requirement.html" target="_blank">Requirement</a>
 
-      <div class="nav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">Resume</a>
-        <a href="#contact">Contact</a>
-        <a href="https://www.google.com/" target="_blank">About</a>
-      </div>
+          </div>
+        </li>
+      </ul>
+
       <div class="header"> 
         <h1 class="p-text">
           Well Documented <br>I AM PASSINATED ABOUT WEB DESIGN
@@ -26,14 +34,15 @@
         <div class="introduce">
           
           <div class="intro">
-            <p class="p1">ABOUT</p>
+
+           <p id="about"> <p class="p1">ABOUT</p></p>
             <!-- <p class="p1-2">Introducaton Myself</p> -->
           </div>
         </div>
 
         <div class="About">
           <div class="about-left">
-            <img src="./img/Anh.jpg" alt="" class="hoa" />
+            <img src="/img/Anh.jpg" class="hoa" />
           </div>
           <div class="about-center">
             <div class="mr-p">
@@ -90,8 +99,9 @@
       </div>
       <!-- <h3 class="h1">MY My-resume</h3> -->
       <div class="my-resume-header">
-        <p>My resume</p>
+        <p id="Resume">My resume</p>
       </div>
+      
       <div class="My-resume">
         <div class="My-resume-left">
           <div class="designer-skills">
@@ -138,10 +148,6 @@
             <h2>Education</h2>
             <p>
               Tốt nghiệp Tiểu Học 
-             
-              
-              
-
             </p>
             <p> Tốt nghiệp Trung Học Cơ Sở</p>
             <p>Tốt nghiệp Trung Học Phổ Thông</p>
@@ -169,7 +175,7 @@
         
         <div class="service">
           <h3>IDENITY&LOGO</h3>
-          <img src="./img/idea.png" alt="" class="ser-img">
+          <img src="/img/idea.png" alt="" class="ser-img">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias exercitationem repudiandae eius repellat impedit minus! Architecto aliquam modi repellat recusandae veniam praesentium porro ipsum, totam, odit, eveniet non hic neque?</p>
           <button class="read-more">READ MORE></button>
           
@@ -177,7 +183,7 @@
         <div class="service">
           <h3>WEB/APP DESIGN</h3>
           
-          <img src="./img/web-icon.png" alt="" class="ser-img">
+          <img src="/img/web-icon.png" alt="" class="ser-img">
           
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error impedit officia laborum provident eligendi soluta enim numquam inventore, aliquam eveniet, voluptas similique modi neque repellendus suscipit necessitatibus natus quia iusto!</p>
           <button class="read-more">READ MORE></button>
@@ -185,7 +191,7 @@
         <div class="service">
           <h3>DEVOLOPMENT</h3>
           
-          <img src="./img/dev.png" alt="" class="ser-img">
+          <img src="/img/dev.png" alt="" class="ser-img">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident harum sapiente neque, ipsam sunt consectetur id natus animi aut exercitationem vel nostrum minus hic unde ullam amet doloribus repellat esse.1</p>
           <button class="read-more">READ MORE></button>
         </div>
