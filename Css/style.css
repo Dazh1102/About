@@ -102,8 +102,74 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* Thêm vào menu tầng */
+* {
+  margin: 0;
+  padding: 0;
+}
 
-/* thanh tab4  */
+header,
+nav ul {
+  display: flex;
+}
+
+nav > ul li {
+  list-style: none;
+  border-right: 1px solid #ccc;
+}
+
+nav > ul li a {
+  display: block;
+  padding: 15px; /* Adjusted padding for better spacing */
+  color: #f1f2f3;
+  text-decoration: none;
+}
+
+nav ul li:first-child {
+  border-left: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+nav ul li:hover > a {
+  color: #0ef;
+}
+
+nav li ul {
+  display: none;
+  min-width: 200px; /* Adjusted min-width */
+  position: absolute;
+}
+
+nav li > ul li {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+nav li > ul li:first-child a {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+nav li > ul li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+nav li > ul li:last-child a {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+nav > ul li > ul li > ul {
+  margin-left: 200px; /* Adjusted margin */
+  margin-top: -50px;
+}
+
 /* kết thúc navbar */
 /* Home  */
 .home {
@@ -112,7 +178,7 @@ li.dropdown {
   align-items: center;
 }
 .home-img img {
-  width: 25vw;
+  width: 20vw;
   /* animation: floatImage 4s ease-in-out infinite; */
   border-radius: 20%;
 }

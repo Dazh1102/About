@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex2</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Đoạn này của phần Ex  */
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+      }
+
+      header {
+        background-color: #40dea4;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: #eee;
+        padding: 10px;
+        text-align: center;
+        min-height: 100px;
+      }
+
+      nav a {
+        font-size: 35px;
+        margin: 0 25px;
+
+        text-decoration: none;
+        color: #333;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      section {
+        flex: 1;
+        min-height: 900px;
+      }
+
+      aside {
+        width: 450px;
+        background-color: #eee;
+        padding: 15px;
+      }
+
+      footer {
+        background-color: #40dea4;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        min-height: 100px;
+        font-size: 30px;
+      }
+
+      .tabs {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .tab-btn {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 0 5px;
+        font-size: 40px;
+      }
+
+      .tab-btn:hover {
+        background-color: #2980b9;
+      }
+
+      .tab-content {
+        display: none;
+        padding: 20px;
+        border: 1px solid #ddd;
+        margin-top: 20px;
+      }
+
+      .tab-content h2 {
+        color: #3498db;
+      }
+
+      /* Kết thúc Phần Ex1 */
+      /* Phần Design */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+      }
+
+      .content {
+        width: 48%; /* Số phần trăm tùy chỉnh để điều chỉnh kích thước của mỗi phần */
+        text-align: center;
+      }
+
+      .design1 {
+        max-width: 100%;
+        height: 800px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      .download-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #40dea4;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        border-radius: 5px;
+      }
+
+      .download-button:hover {
+        background-color: #40dea4;
+      }
+
+      footer {
+        background-color: #40dea4;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        bottom: 0;
+        width: 100%;
+      }
+      /*Kết thúc Phần Design */
+    </style>
+  </head>
+  <body>
+    <div class="tabs">
+      <button class="tab-btn" onclick="openTab('tab2')">Design</button>
+      <button class="tab-btn" onclick="openTab('tab1')">Implement</button>
+
+      <button class="tab-btn">
+        <a class="Lab6ex" href="lab6.html"> Lab6</a>
+      </button>
+    </div>
+
+    <div class="tab-content" id="tab1">
+      <header>
+        <h1>Khám Phá Tây Nguyên</h1>
+      </header>
+      <main>
+        <section>
+          <h2>Khám phá mảnh đất Tây Nguyên hoang sơ</h2>
+          <img src="./Images/TayNguyen1.webp" alt="" height="400px" />
+          <img src="./Images/TayNguyen2.webp" alt="" height="400px" />
+          <p>
+            Nhắc đến Buôn Ma Thuột, ta nghĩ ngay đến những nếp nhà rông truyền
+            thống, những ánh lửa bập bùng bên điệu múa cồng chiêng hoang dã và
+            vườn cà phê bạt ngàn trên nền đất đỏ bazan màu mỡ.
+          </p>
+
+          <p>
+            Buôn Ma Thuột được biết đến với bản sắc văn hóa rất phong phú, là
+            nơi sinh sống của cộng đồng hơn 40 nhóm dân tộc thiểu số. Nếu bạn
+            yêu thích du lịch khám phá, gần gũi với thiên nhiên, Buôn Ma Thuột
+            sẽ không làm bạn thất vọng. Không nổi tiếng với các dịch vụ du lịch
+            giải trí, mảnh đất này làm say đắm lòng người bởi những khu rừng kỳ
+            bí, những cánh đồng cà phê bạt ngàn, những ngọn thác thơ mộng và
+            những điểm du lịch hoang sơ, bình dị... Anh Trần Hoài Nam (sinh năm
+            1989, giáo viên tại địa phương) chia sẻ, đến với Buôn Ma Thuột du
+            khách sẽ có những trải nghiệm đặc trưng chỉ có ở nơi đây, như thưởng
+            thức cồng chiêng, uống rượu cần, đốt lửa trại, ở nhà sàn cùng đồng
+            bào dân tộc... Đặc biệt an ninh rất tốt, con người thân thiện, nhiệt
+            tình mến khách, các món ăn hấp dẫn, thiên nhiên vừa hùng vĩ vừa thơ
+            mộng gây lưu luyến lòng người. Về thời tiết, Buôn Ma Thuột mang khí
+            hậu đặc trưng của vùng đất Tây Nguyên với hai mùa mưa và mùa khô rõ
+            rệt. Thời gian phù hợp nhất để du lịch Buôn Ma Thuột là vào mùa khô
+            từ tháng 12 đến tháng 4 năm sau. Lúc này không có mưa, dịu mát, chưa
+            quá nóng nực. Đây cũng là thời gian diễn ra các lễ hội của đồng bào
+            dân tộc. Tháng 12 có hoa dã quỳ rực rỡ, tháng 2 đến tháng 3 có hoa
+            cà phê thơ mộng. Mùa mưa từ tháng 5 đến tháng 11, gây khó khăn di
+            chuyển ở một số tuyến đường đất xa trung tâm.
+          </p>
+          <p>&emsp;</p>
+          <p>&emsp;</p>
+          <p>&emsp;</p>
+          <p>&emsp;</p>
+        </section>
+      </main>
+
+      <footer>
+        <p>Copyright &copy; 2023 by VoCongDanh | All Right reserved.</p>
+      </footer>
+    </div>
+
+    <div class="tab-content" id="tab2">
+      <header>
+        <h1>Design</h1>
+      </header>
+
+      <div class="content-wrapper">
+        <section class="content" id="content1">
+          <img class="design1" src="./Images/Zpattern.jpg" alt="Image 1" />
+          <a
+            href="./Images/Zpattern.jpg"
+            class="download-button"
+            download="./Images/FPattern.jpg"
+            >Download Image 1</a
+          >
+        </section>
+
+        <section class="content" id="content2">
+          <img class="design1" src="./Images/figmaex2.png" alt="Image 2" />
+          <a
+            href="./Images/figmaex2.png"
+            class="download-button"
+            download="figmaex2"
+            >Download Image 2</a
+          >
+          <a
+            href="https://www.figma.com/file/asyvLaXadpHyJZrq60e66N/Untitled?type=design&mode=design&t=1K4Zhfn7fCWRwOnd-1"
+            class="download-button"
+            >Link Figma</a
+          >
+        </section>
+      </div>
+
+      <footer>
+        <p>Copyright &copy; 2023 by VoCongDanh | All Right reserved.</p>
+      </footer>
+    </div>
+  </body>
+  <script>
+    function openTab(tabName) {
+      var i, tabContent;
+
+      // Ẩn tất cả các tab-content
+      tabContent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+      }
+
+      // Hiển thị tab-content tương ứng với tab được chọn
+      document.getElementById(tabName).style.display = "block";
+    }
+  </script>
+</html>
