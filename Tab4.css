@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://khoinguonsangtao.vn/wp-content/uploads/2022/07/hinh-nen-trang-co-hoa-tiet-luon-song.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Design */
+div.container {
+  margin: 60px;
+}
+div.header {
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 40px;
+}
+div.main {
+  display: flex;
+}
+div.main-left {
+  flex-basis: 40%;
+}
+div.main-right {
+  flex-basis: 60%;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.img {
+  max-height: 300px;
+}
+/* Kết thúc Design */
+/* Implement */
+div.list-student {
+  width: 650px;
+}
+div h3 {
+  font-size: 40px;
+}
+div.form-student,
+div.list-student {
+  width: 800px;
+  border: 1px solid #ccc;
+  margin: 25px;
+  padding: 10px;
+  float: left;
+}
+div.form-student h3 {
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 40px;
+}
+div.form-student label {
+  width: 200px;
+  float: left;
+  font-size: 20px;
+}
+div.form-student input[type="text"],
+button {
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 5px;
+}
+button {
+  margin-top: 15px;
+}
+.error {
+  color: red;
+}
+div input {
+  height: 22px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.ssss {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  background-color: aliceblue;
+}
+.a {
+  height: 700px;
+}
