@@ -15,34 +15,38 @@
   </head>
   <body>
     <!-- header design  -->
+
     <header class="header">
       <a href="#" class="logo">IT ME</a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
+        <a href="About.html" target="_blank">About</a>
         <a href="#services">Services</a>
         <a href="#portfolio">Profile</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contact</a>    
         <li class="dropdown">
-          <a href="" class="dropbtn">Tab4</a>
+          <a href="lab4.html" class="dropbtn" target="_blank">Lab4</a>
           <div class="dropdown-content">
-            <a href="#design" >Design</a>
-            <a href="#implement" ">Implement</a>
-            <a href="#requirement" >Requirement</a>
+            <a href="designLab4.html" target="_blank">Design</a>
+            <a href="requimentLab4.html" target="_blank">Requirement</a>
+            <a href="lab4.html" target="_blank">Implement</a>
           </div>
-        </li>  
+        </li>
+        <a href="lab5.html" target="_blank">Lab5</a>
+        <a href="lab7.html" target="_blank">Lab7</a>
+        <a href="lab8.html" target="_blank">Lab8</a>
         <ul>
           <li>
-            <a href="#">Labs</a>
+            <a href="#">Labs</a>       
             <!-- menu con sổ xuống cấp 1 -->
             <ul>
-              <li>
-                <a href="lab6.html">Lab6</a>
-                <!-- menu con sổ ngang cấp 2 -->
+              <li>  
+                <a href="lab6.html" target="_blank">Lab6</a>
+                <!-- menu con sổ ngang cấp 2 --> 
                 <ul>
                   <li>
-                    <a href="ex1.html">Ex1</a>
+                    <a href="ex1.html" target="_blank">Ex1</a>
                     <!-- menu con sổ ngang cấp 3 -->
                     <ul>
                       <li>
@@ -75,6 +79,23 @@
     <!-- home section design -->
     <section class="home" id="home">
       <div class="home-content">
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+       
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
         <h3>Xin chào lại là mình đây</h3>
         <h1>Võ Công Danh <br />Mã Sinh Viên: 22130033</h1>
         <h3><span class="multiple-text"></span></h3>
@@ -219,191 +240,9 @@
         </div>
       </div>
     </section>
-    <!-- Lap4 -->
-
-    
-    
-    
-    <section class="requiement" id="requiement">
-      <h2 class="heading">Requi<span>ment</span></h2>
-      
-        <div class="main">
-          <div class="main-left">
-            <img src="./Images/thietke.jpg" alt="" class="img" />
-          </div>
-          <div class="main-right">
-            <h3>1.Yêu cầu:</h3>
-            <p>
-              Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ như lớp môn học,
-              giảng viên,… Ví dụ, làm chức năng Quản lý Sinh viên, bao gôm tính
-              năng thêm, sửa, xóa, tìm kiếm. Chú ý: Các thành viên trong lớp,
-              trong nhóm không được chọn các đối tượng giống nhau.
-            </p>
-            <h3>2.Thực hiện</h3>
-            <p>
-              Sau đó thiết kế chức năng Quản lý đối tượng đó trên html bao gồm các
-              tính năng thêm, sửa, xóa, tìm kiếm cho đối tượng đó.
-            </p>
-            <h3>Ví dụ</h3>
-            <p>
-              Ví dụ, làm chức năng Quản lý Sinh viên, bao gôm tính năng thêm, sửa,
-              xóa, tìm kiếm.
-            </p>
-            <h3>4.Chú ý</h3>
-            <p>
-              Chú ý: Các thành viên trong lớp, trong nhóm không được chọn các đối
-              tượng giống nhau.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="implement" id="implement">
-      <h2 class="heading"> <span>Imple</span>ment</h2>
-      <body onload="renderListsinhvien()">
-  
-        <div class="form_sinhvien">
-          <h3>Thông Tin Sinh Viên</h3>
-          <label>Họ và Tên </label>
-          <input type="text" id="fullname" />
-          <span id="fullname-error" class="error"></span>
-          <br />
-
-          <label>địa chỉ email </label>
-          <input type="text" id="email" />
-          <span id="email-error" class="error"></span>
-          <br />
-          <label>số điện thoại </label>
-          <input type="text" id="phone" />
-          <span id="phone-error" class="error"></span>
-
-          <br />
-          <label>địa chỉ </label>
-          <input type="text" id="address" />
-          <span id="address-error" class="error"></span>
-
-          <br />
-          <label>giới tính </label>
-          <input type="radio" name="gender" id="male" value="1" /> Nam
-          <input type="radio" name="gender" id="famale" value="2" /> Nữ
-          <span id="gender-error" class="error"></span>
-
-          <br />
-
-          <label> &nbsp; </label>
-
-          <button onclick="save()">Thêm</button>
-        </div>
-        <div class="list_sinhvien" , id="list_sinhvien">
-          <h3>Danh sách nhân viên</h3>
-
-          <table
-            id="grid-sinhvien"
-            width="600px"
-            border="1"
-            cellpadding="0"
-            cellpadding="0"
-          >
-            <tr>
-              <td>Họ và Tên</td>
-              <td>Email</td>
-              <td>Điện Thoại</td>
-              <td>Địa Chỉ</td>
-              <td>giới tính</td>
-              <td>Hành Động</td>
-            </tr>
-          </table>
-        </div>
-        <div class="head">
-          <input
-            type="text"
-            id="search"
-            oninput=" searchsinhVien()"
-            placeholder="Tìm kiếm..."
-          />
-        </div>
-        <script src="https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)"></script>
-        <script src="/index.js"></script>
-      </body>
-   
-    </section>
-    <section class="design" id="design" >
-      <h2 class="heading">Desi<span>gn</span></h2>
-      <button class="linkto"><a href="https://www.figma.com/file/c8S8dLVcLivndXmYFgGS5W/Untitled?type=design&t=7X6fi8iS2cdjNFsu-6">Link to figma</a></button>
-      <div class="design-img">
-      <img src="./Images/des1.png" alt=""> 
-      <button class="download">Download</button>
-      <img src="./Images/sss.jpg" alt="">
-      <button class="download">Download</button>
-      </div>
-    </section>
-    <!-- hết lap4 -->
-
     <!-- Lap 5 -->
     
-    <section class="scenario" id="scenario">
-      <div class="button-kichban">
-      <button class="linkto"> <a href="https://www.figma.com/file/obfYGydJbRfNSQebOSvjck/Untitled?type=design&node-id=0%3A1&mode=design&t=S6D6wXTFgcUrOJZF-1">Link to Figma</a></button>
-      <img src="./Images/KichBanP1.png" alt="">
-      <img src="./Images/KichBanP2.png" alt="">
-      </div>
-    
-      <p class="kichban">Bước 6:Xem tin tức Công Nghệ</p>
-      <h2 class="heading"><span>User</span>scenario</h2>
-      <div class="scenario-main">
-      <div class="scenario-header">
-        <a href="" class="logo2">News</a>
-        <div class="button-sign">
-          <p class="Sign1">Sign In</p>
-          <button class="scenario-button">Search...</button>
-        </div>
-      </div>
-      
-      <div class="cong-nghe">
-        <div class="cong-nghe-header">
-          <h4>Công Nghệ</h4>
-        </div>
-        
-        <div class="scenario-nav">
-          <a href="#about">Giới Thiệu</a>
-          <a href="#services">Xu Hướng</a>
-          <a href="#portfolio">Ưu Đãi </a>
-          <a href="#contact"> <button class="tintuc">Tin Tức</button></a>
-          <a href="#contact">Tiện Ích</a>
-          <a href="#contact">Đánh Giá</a>
-          <a href="#contact">Khoa Học</a>
-        </div>
-      </div>
-      <div class="scenario-content">
-        <div class="scenario-content-left">
-          <img src="./Images/duan4.jpg" alt="" class="img-content-left">
-          <div> 
-            <p>&nbsp;</p>
-            <p>AI đang phát triển mạnh mẽ ở lĩnh vực nào</p>
-            <p>&nbsp;</p>
-          </div>
-          
-        </div>
-        <div class="scenario-content-right">
-          <img src="./Images/duan1.jpg" alt="" class="img-content-right">
-          <div>
-            
-             <p >Xu hướng phát triển công nghệ hiện nay</p>
-            
-            </div>
-          <img src="./Images/duan3.jpg" alt="" class="img-content-right">
-          <div> 
-            <p>&nbsp;</p>
-            <p >Lập trình viên đang gặp phải những vấn đề nào?</p>
-            <p>&nbsp;</p>
-          </div>
-          </div>
-        </div>
-      </div>
-      </div>
-
-
-    </section>
+   
     <section class="services" id="services">
       <h2 class="heading"><span>Dịch vụ</span> của tôi</h2>
       <div class="services-container">
