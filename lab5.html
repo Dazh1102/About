@@ -3,22 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lap5</title>
     <link rel="stylesheet" href="./Css/style.css">
 </head>
 <body>
-    <section class="scenario" id="scenario">
-        <div class="button-kichban">
-        <button class="linkto"> <a href="https://www.figma.com/file/obfYGydJbRfNSQebOSvjck/Untitled?type=design&node-id=0%3A1&mode=design&t=S6D6wXTFgcUrOJZF-1">Link to Figma</a></button>
-        <img src="./Images/KichBanP1.png" alt="">
-        <img src="./Images/KichBanP2.png" alt="">
-        </div>
-      
-        <p class="kichban">Bước 6:Xem tin tức Công Nghệ</p>
-        <h2 class="heading"><span>User</span>scenario</h2>
+    <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>  
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+        <header class="header">
+          <a href="#" class="logo">IT ME</a>
+          <i class="bx bx-menu" id="menu-icon"></i>
+          <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="About.html" >About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Profile</a>
+            <a href="#contact">Contact</a>    
+            <li class="dropdown">
+              <a href="lab4.html" class="dropbtn" >Lab4</a>
+              <div class="dropdown-content">
+                <a href="designLab4.html" >Design</a>
+                <a href="requimentLab4.html" >Requirement</a>
+                <a href="lab4.html" >Implement</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="lab5.html" class="dropbtn" >Lab5</a>
+              <div class="dropdown-content">
+                <a href="userScenarioLap5.html" >User Scenario</a>
+                <a href="lab5.html" >Implement</a>
+                
+              </div>
+            </li>
+           
+            <a href="lab7.html" >Lab7</a>
+            <a href="lab8.html" >Lab8</a>
+            <ul>
+              <li>
+                <a href="#">Lab6</a>       
+                <!-- menu con sổ xuống cấp 1 -->
+                <ul>
+                  <li>  
+                    <a href="lab6.html" >Lab6</a>
+                    <!-- menu con sổ ngang cấp 2 --> 
+                    <ul>
+                      <li>
+                        <a href="ex1.html" >Ex1</a>
+                        <!-- menu con sổ ngang cấp 3 -->
+                        <ul>
+                          <li>
+                            <a href="#">Design</a>
+                          </li>
+                          <li>
+                            <a href="#">Implementation</a>
+                          </li>
+                        </ul>
+                        <li>
+                          <a href="ex2.html">Ex2</a>
+                          <!-- menu con sổ ngang cấp 3 -->
+                          <ul>
+                            <li>
+                              <a href="#">Design</a>
+                            </li>
+                            <li>
+                              <a href="#">Implement</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </header>
+    <section class="scenario" id="scenario">          
         <div class="scenario-main">
         <div class="scenario-header">
-          <a href="" class="logo2">News</a>
+          <a style="font-size: 50px;" href="" class="logo2">News</a>
           <div class="button-sign">
             <p class="Sign1">Sign In</p>
             <button class="scenario-button">Search...</button>
@@ -26,9 +102,7 @@
         </div>
         
         <div class="cong-nghe">
-          <div class="cong-nghe-header">
-            <h4>Công Nghệ</h4>
-          </div>
+          
           
           <div class="scenario-nav">
             <a href="#about">Giới Thiệu</a>
@@ -37,7 +111,7 @@
             <a href="#contact"> <button class="tintuc">Tin Tức</button></a>
             <a href="#contact">Tiện Ích</a>
             <a href="#contact">Đánh Giá</a>
-            <a href="#contact">Khoa Học</a>
+            
           </div>
         </div>
         <div class="scenario-content">
@@ -67,8 +141,37 @@
           </div>
         </div>
         </div>
-  
-  
       </section>
+      <section class="contact" id="contact">
+        <h2 class="heading">Liên hệ với <span>tôi!</span></h2>
+        <form action="">
+          <div class="input-box">
+            <input type="text" placeholder="Tên đầy đủ" />
+            <input type="email" placeholder="Địa chỉ email" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Số điện thoại" />
+            <input type="text" placeholder="Email subject" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your mesenger"
+          ></textarea>
+          <input type="submit" value="Gửi" class="btn" />
+        </form>
+      </section>
+  
+      <!-- footer design -->
+      <footer class="footer">
+        <div class="footer-text">
+          <p>Copyright &copy; 2023 by VoCongDanh | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
 </body>
 </html>
